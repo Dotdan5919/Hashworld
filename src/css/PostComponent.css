@@ -1,0 +1,183 @@
+:root {
+    --yellow: #F8BD00;
+    --yellowhover: #f4cb47;
+
+    --white: #ffffff;
+    --hash:#DAD9D9;
+    --shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .Post-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+
+  .Post{
+box-shadow: var(--shadow);
+width: 700px;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 24px;
+margin: 10px 30px;
+
+
+  }
+
+
+
+
+  .Post .footer
+  {
+
+display: flex;
+gap:10px;
+align-items: center;
+justify-content: space-around;
+font-size: large;
+padding: 8px;
+width: 100%;
+/* flex-wrap: wrap; */
+
+  }
+.footer div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: .2s;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.footer div:hover{
+
+
+color: var(--yellow);
+
+
+}
+
+
+  .Post .header
+  {
+
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+margin: 5px;
+
+
+  }
+
+  .header input{
+
+    outline: none;
+    border-radius: 16px;
+    border:1px solid var(--hash) ;
+    height: 40px;
+    padding: 30px;
+    width: 90%;
+
+
+  }
+
+  
+.profile-image-container{
+
+    border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   overflow: hidden;
+   
+   
+   
+   
+   
+   }
+   .profile-image-container img{
+   
+   /* height: 100%; */
+    /* margin-left:25px;  */
+   object-fit: cover;
+   width: 60px;
+   height: 60px;
+   
+   }
+
+
+   .Post-Two-Header
+   {
+display: flex;
+flex-direction: column;
+text-align:left;
+align-items: flex-start;
+justify-content: flex-start;
+
+
+
+
+   }
+
+
+   .img-text
+   {
+
+display: flex;
+gap: 10px;
+
+
+   }
+
+   p{
+
+
+    font-size: x-small;
+    color: rgb(56, 55, 55);
+   }
+
+   .Post-Two-Header
+   {
+margin: 20px 0;
+
+
+
+   }
+
+   .body-footer
+   {
+display: flex;
+justify-content: space-between;
+margin: 10px;
+
+   }
+   .likes
+   {
+display: flex;
+gap: 8px;
+
+
+   }
+
+   .comments
+   {
+
+display: flex;
+gap: 8px;
+
+   }
+.Post-2
+{
+
+  height: auto;
+ 
+
+
+
+}
