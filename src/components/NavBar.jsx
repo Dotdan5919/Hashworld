@@ -39,6 +39,8 @@ const ShowNav=()=>
 
 
   return (
+
+    <div className='Navbar-parent'>
     
     <div className='Navbar-container '>
     
@@ -78,7 +80,7 @@ const ShowNav=()=>
     </div>
 
     </div>
-
+    </div>
    
   )
 }

@@ -60,10 +60,15 @@ className='m-2'
 <FontAwesomeIcon icon={faMessage} className='text-xs' />
 </div>
 <div className='flex flex-wrap gap-10 font  justify-between w-80 ml-2'>
-<div className="text-group align-start gap-2 flex flex-col  w-30 ">  
+<div className="text-group align-start gap-1  ml-2 flex flex-col  w-70 ">  
     <h1 className="font-bold text-left"> James Akande </h1>
     
-    <p className='text-left'>hi <p className=''> 1day</p></p>
+    <div className="text-left flex flex-col">   
+    <h3 className=''>hi </h3>
+    <small>1day</small>
+    
+    </div>
+    
     
     </div>
 

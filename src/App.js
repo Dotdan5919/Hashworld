@@ -3,6 +3,8 @@ import './App.css';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import HomePage from './components/HomePage';
+import NotificationPage from './components/NotificationPage';
+
 
 
 import New from './new';
@@ -17,7 +19,7 @@ function App() {
     <Route index element={<LoginPage/>} />
     <Route path="register" element={<RegisterPage/>} />
     <Route path="home" element={<HomePage/>} />
-    <Route path="Notification" element={<HomePage/>} />
+    <Route path="Notification" element={<NotificationPage/>} />
 
     
 

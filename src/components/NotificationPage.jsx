@@ -12,20 +12,27 @@ import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 const HomePage = () => {
   return (
     
-    <div  className='overflow-x-hidden overflow-y-hidden'>
+    <div >
 
-    <div>   
+    
 
 
    
     <NavBar/>  
    
     
- <Body/>
+ 
+
+
+
+    
+
+
+
  <FooterX/>
 
 
-    </div>
+    
 
    
    

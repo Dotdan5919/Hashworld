@@ -8,6 +8,7 @@ import PostComponentTwo from './PostComponentTwo';
 
 const Body = () => {
   return (
+    <div className='body-container-parent'>
     <section className='body-container'>
       
 
@@ -23,6 +24,7 @@ const Body = () => {
 
 
     </section>
+    </div>
   )
 }
 
