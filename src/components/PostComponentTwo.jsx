@@ -8,8 +8,8 @@ import ProfileImage from '../images/sample_profile.jpg';
 const PostComponentTwo = (props) => {
 
    return (
-  <div className='Post-holder'>   
-    <div className='Post Post-2'>
+  <div className='Post-holder w-full'>   
+    <div className='Post w-full card'>
 <div className=" Post-Two-Header">  
 <div className='img-text'>  
     <div className="profile-image-container">

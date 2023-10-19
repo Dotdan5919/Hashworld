@@ -7,8 +7,8 @@ import ProfileImage from '../images/sample_profile.jpg';
 
 const PostComponent = () => {
   return (
-  <div className='Post-holder'>   
-    <div className='Post card'>
+  <div className='Post-holder w-full'>   
+    <div className='Post w-full card'>
 <div className="header">  
     <div className="profile-image-container">
     

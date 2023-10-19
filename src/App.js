@@ -4,6 +4,8 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import HomePage from './components/HomePage';
 import NotificationPage from './components/NotificationPage';
+import ProfilePage from './components/ProfilePage';
+
 
 
 
@@ -20,6 +22,8 @@ function App() {
     <Route path="register" element={<RegisterPage/>} />
     <Route path="home" element={<HomePage/>} />
     <Route path="Notification" element={<NotificationPage/>} />
+    <Route path="Profile" element={<ProfilePage/>} />
+
 
     
 
